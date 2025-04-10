@@ -1,5 +1,5 @@
-import styles from "./product.module.css";
-import Product from "@_ui/Product/Product";
+import styles from "./page.module.css";
+import Product from "./_ui/Product/Product";
 export default function Home() {
   return  <div className={styles.page}>
               <header className={styles.header}>
